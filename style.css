@@ -2,26 +2,75 @@
   padding: 0%;
   margin: 0%;
 }
-.body{
-    background-color: lightgray;
+.body {
+  background-color: lightgray;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgrey;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.header1 {
+  display: flex;
+  padding-left: 100px;
+}
+.appstore {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.store {
+  padding-left: 110px;
+  padding-right: 300px;
+}
+
+.font {
+  font-size: 15px;
+  color: grey;
+  display: flex;
+  /* padding-left: 50px; */
+  justify-content: space-around;
+}
+.blue {
+  background-color: rgb(74, 74, 233);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
 }
 .page {
   display: column;
   text-align: center;
-  margin: 150px;
+  padding-top: 60px;
 }
 .text {
   font-size: x-large;
+  text-align: center;
+  padding-left: 250px;
 }
-.color {
-  background-color: rgb(225, 244, 141);
-}
+
 .image {
   display: flex;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
-  margin: 20px;
-  padding: 30px;
+  justify-content: space-between;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.img1 {
+  border-color: black;
+  border-style: solid;
+}
+.img2 {
+  border-color: black;
+  border-style: solid;
+}
+.img3 {
+  border-color: black;
+  border-style: solid;
 }
 .over {
   display: column;
@@ -43,27 +92,7 @@
 .App {
   position: static;
 }
-.sticky {
-  position: fixed;
-  top: 10;
-  width: 100%;
-  height: 10%;
-}
-.logo {
-  position: sticky;
-  justify-content: flex-start;
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-}
-.img2 {
-  height: 300px;
-  border-radius: 100px;
-}
-.img1 {
-  height: 300px;
-  border-radius: 100px;
-}
+
 .product {
   display: flex;
 }
@@ -100,38 +129,25 @@
   display: flex;
   padding-top: 10px;
 }
-.footer2{
-    margin-left: 60px;
+.footer2 {
+  margin-left: 60px;
 }
-.last{
-    padding-top: 40px;
-    margin-left: 40px;
+.last {
+  padding-top: 40px;
+  margin-left: 40px;
 }
-.last2{
-    margin-top: 10px;
+.last2 {
+  margin-top: 10px;
 }
-.promote{
-    border-radius: 100px;
-    width: 250px;
-}
-.nav1{
-    display: flex;
-    padding-left: 200px;
-    padding-top: 20px;
-
-
-}
-.nav2{
-    margin-left: 100px;
-    padding-bottom: 10px;
-    padding-top: 60px;
-}
-.nav3{
-    height: 15px;
-    margin-left: 50px;
-    padding-top: 60px;
-}
-.body1{
-    background-color: rgb(189, 182, 153);
+.promote {
+  border-radius: 100px;
+  width: 250px;
 }
 
+.body1 {
+  background-color: rgb(189, 182, 153);
+}
+.body2 {
+  display: flex;
+  justify-content: space-around;
+}
